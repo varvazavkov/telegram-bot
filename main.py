@@ -259,24 +259,3 @@ if __name__ == '__main__':
     finally:
         db.close()
 
-
-
-
-
-
-
-
-
-
-
-
-#import telebot 
-#token = '6220539025:AAGtADcPx_oXtwbGkKlWZjUBaeKYzAnFfT0'
-
-#bot = telebot.TeleBot(token)
-
-#@bot.message_handler(commands = ['start'])
-#def send_welcome(message):
-#    bot.send_message(message.chat.id, "Привет! Я бот для создания очереди")
-    
-#bot.polling(none_stop=True)
